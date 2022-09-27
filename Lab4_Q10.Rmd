@@ -1,0 +1,74 @@
+---
+title: "Naruto"
+subtitle: "DSCI 521 Lab 4 Q10 Presentation"
+date: "2022/09/26"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url(https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg)
+background-position: 25% 90%
+background-size: 20%
+class: center, right, inverse
+# Naruto Uzumaki
+
+## The titular character of a well-known series that the xaringan package derives its name from.
+A "naruto" is also a common name for a fishcake, a popular ramen topping!
+Image credit: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg)
+
+
+---
+class: inverse, center, middle
+
+# Teammates
+
+## Naruto has two other team members:
+
+```{r echo=FALSE, results='asis'}
+Team_7 <- c("Sasuke Uchiha", "Sakura Haruno")
+Team_7
+
+```
+
+## and a teacher
+```{r echo=FALSE, results='asis'}
+Sensei <- c("Kakashi Hatake")
+Sensei
+```
+
+---
+
+class: inverse, centre
+# Geography
+The world of Naruto has five countries, with each containing many ninja villages.
+
+```{r tidy=TRUE, echo=FALSE}
+N_countries <- list("Land of Fire", "Land of Water", "Land of Earth", "Land of Lightning", "Land of Wind")
+for (c in N_countries) {
+  print(c)
+}
+```
+
+Naruto lives in Konohagakure in the Land of Fire.
+---
+class: centre, middle, inverse
+# Adaptations
+## "Naruto" has had many adaptations, including:
+### - a total of 720 aired episodes over the span of two series,
+### - a total of 72 volumes of manga,
+### - and 11 feature films
+It also has a spin-off series that is currently still airing.
+
+
+
+
+
